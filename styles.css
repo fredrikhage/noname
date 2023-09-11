@@ -1,0 +1,347 @@
+body {
+	font-family: 'Inter custom',sans-serif;
+
+}
+
+body, option, select {
+	color:white;
+	background-color:#1a1a1a;
+}
+
+.swap_textfield {
+	height: 60px;
+    width: 90%;
+    margin-left: 3%;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #2b2b2b;
+    background-color: #000;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 15px;   
+}
+
+.swap_select {
+    margin-top: 21px;
+    border: none !important;
+    background-color: transparent;
+    outline: none;
+    margin-left: -112px;
+    position: absolute;
+    cursor: pointer;
+    width: 70px;
+}
+
+select:disabled {
+  opacity:1;
+  cursor:pointer;
+}
+
+
+.swap_button {
+    border-radius: 34px;
+    margin-left: 3.3%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    background-color: white;
+    margin-top: 5px;
+    border: none;
+    cursor: pointer !important;
+    color: black;
+    outline:1px solid #070707;
+}
+
+.swap_button div {
+	width:auto;
+	margin:0px;
+	padding:0px;
+	height:100%;
+	border-radius: 34px;
+}
+
+.layer1 {
+	/*background-image:url('../images/waves.gif'); 
+	background-size:110%; 
+	background-position-y:-10px; 
+	background-position-x:-5px;*/
+}
+
+.layer2 {
+	background:linear-gradient(90deg, rgb(114 182 133 / 78%) 0%, rgb(21 93 38 / 59%) 100%)
+}
+
+
+
+
+.uni_button {
+	border: 1px solid #bababa;
+}
+
+
+#priceimpact {
+    font-size: 11px;
+    margin-top: -36px;
+    color: #828282;
+    margin-left: 23px;
+    font-style: italic;
+    position:absolute;
+}
+
+
+#arrow {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-top: -7px;
+    margin-left: 5px;
+    background-color: #5e5e5e;
+    padding: 2px;
+    cursor: pointer;
+    position: absolute;
+    background: linear-gradient(90deg, rgb(21 21 21) 0%, rgb(57 57 57) 100%);
+}
+
+#uni_max {
+text-decoration:underline;
+cursor:pointer;
+}
+
+#availablemax {
+    font-size: 10px;
+    color: rgb(127, 127, 127);
+    font-style: italic;
+    text-align: right;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 25px;
+}
+
+#uni_swapButton {
+	color: white;
+
+	/*background: linear-gradient(90deg, rgba(85,0,49,1) 0%, rgba(255,0,0,0.9976365546218487) 100%);
+	background: linear-gradient(90deg, rgb(110 110 110) 0%, rgb(237 181 181) 100%);*/
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.input {
+	text-align:center;
+	margin:auto;
+}
+
+
+#uni_myswap {
+    border-radius: 29px;
+    padding: 22px;
+    width: 30vw;
+    min-width: 307px;
+    height: 286px;
+    max-width: 532px;
+    margin: auto;
+    padding-bottom: 0px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(47,47,47,0.9976365546218487) 100%);
+}
+
+#btn-connect {
+color:black;background:white;border:none;right:10px;margin-top:-20px; position:fixed
+}
+
+#inputTicker, #outputTicker {
+	width:50px;
+}
+
+
+	
+#uni_dropdown {
+	background-color: #00000047;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+	display:none;
+	padding:5px;
+}
+
+#uni_close {
+    float: right;
+    margin-right: -9px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #686868;
+}
+
+.tokenRow {
+    height: 46px;
+}
+
+.tokenRow span:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#tokenListHolder {
+width: 600px;
+    margin: auto;
+    background-color: black;
+    padding: 3%;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 1%;
+}
+
+.tokenInfo {
+    color: #cccccc;
+    font-size: 10px;
+    font-style: italic;
+}
+
+
+
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 6px;
+    margin-bottom: 3px;
+    float:right;
+}
+
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+.button_inner {
+padding:18px !important;
+}
+
+
+	#logo img {
+    width: 72px;
+    background-image: url(../images/waves.gif);
+    background-size: 150% 150%;
+	}
+
+#logo h1 {	
+    margin-left: 85px;
+    position: absolute;
+    margin-top: -54px;
+    font-size: 34px;
+    font-weight: 300;
+    font-family: 'Balthazar', serif;
+}
+
+#logo {
+    padding-bottom: 40px;
+    padding-left: 18px;
+    padding-top: 12px;
+}
+
+
+#settings {
+    width: 18px;
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 23px;
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+#slippageSettings {
+background-color: white;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    z-index: 10;
+    top: 19px;
+    right: 60px;
+    padding:10px;
+    color:black;
+
+    
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+.gradanimate {
+
+    background: linear-gradient( to right, #908ce3 20%, #31c1ff 30%, #7ed8ff 70%, #6cffed 80% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+    font-size:11px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	.swap_textfield {
+		font-size:14px;
+	}
+}
+
+
+#tokenListHolder {
+    /*	height: 740px;*/
+    height: 685px;    
+    overflow-y: auto;
+    max-height:90vh;
+}
+
+#tokenListHolder table {
+
+
+    display: block;
+
+}
+
+#tokenListHolder input{
+margin-bottom:10px;
+}
+
+#securitywarning {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 48px;
+    color: #bebebe;
+    width: 30vw;
+    min-width: 306px;
+    font-style: italic;
+}
